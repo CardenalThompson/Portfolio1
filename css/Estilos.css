@@ -1,0 +1,71 @@
+/* globales */
+.contenedor{
+    width: 95%;
+    max-width: 120%;
+    margin: auto;
+}
+
+.bordeCircular{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Herader */
+.site-header{
+    background-color: black;
+    padding: 1rem 0 3rem 0;
+}
+
+.inicio{
+    background-image: url(../img/Fondo5.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenido-header h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 49, 47);
+    font-size: 36pt;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 2;
+}
+
+.navegacion a{
+    color: #080000;
+    font: bold;
+    text-decoration: none;
+    font-size: 2.2rem; 
+    display: block;
+}
+
+.navegacion a:hover{
+    color: rgb(3, 102, 77);
+}
+
+.barra{
+    padding-top: 3rem;
+}
+
+@media(min-width: 768px){
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
