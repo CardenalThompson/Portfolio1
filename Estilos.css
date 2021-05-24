@@ -22,7 +22,7 @@ img{
 }
 
 .inicio{
-    background-image: url(../img/Fondo5.jpg);
+    background-image: url(Fondo5.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
